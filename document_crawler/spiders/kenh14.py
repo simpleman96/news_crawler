@@ -2,27 +2,25 @@
 import scrapy
 import re
 
-regex = re.compile("\n")
-
-
 class Kenh14Spider(scrapy.Spider):
     name = 'kenh14'
     allowed_domains = ['kenh14.vn']
     start_urls = [
-        # 'http://kenh14.vn/cach-day-3-nam-lam-tay-tung-viet-tam-thu-tha-thiet-duoc-vao-doi-tuyen-viet-nam-20181215224913227.chn'
-        # 'http://kenh14.vn/hang-trieu-cdv-viet-nam-do-ra-duong-an-mung-chien-thang-chung-ta-la-nhung-nha-vo-dich-20181215203028133.chn'
         'http://kenh14.vn/xuan-truong-lang-le-dung-nhin-dong-doi-tung-ho-thay-park-len-cao-20181215230442445.chn'
     ]
+
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.allowed_cate = ['Sport']
 
     def parse(self, response):
         global regex
         output_path = 'sport_kenh14_docs'
-        cate_filter = 'Sport'
         date_time = response.selector.xpath(
             '//div[@class=\'kbwc-meta\']/span[@class=\'kbwcm-time\']/@title').extract_first()
         title_doc = response.selector.xpath('//h1[@class=\'kbwc-title\']/text()').extract_first()
         category = response.selector.xpath('//li[@class=\'kmli active\']/a/@title').extract_first()
-        if category == cate_filter:
+        if category in self.allowed_cate:
             # content = response.selector.xpath('//div[@class=\'knc-content\']//p').extract_first()
             texts = response.selector.xpath('//div[@class=\'knc-content\']//p//text()').extract()
             with open(output_path, 'a') as out_f:
@@ -34,7 +32,7 @@ class Kenh14Spider(scrapy.Spider):
                                    + '|' + category \
                                    + '|' + title_doc \
                                    + '|' + content
-                        out_f.write(regex.sub(' ', line) + "\n")
+                            out_f.write(re.sub('\n', ' ', line) + "\n")
                         break
                 except:
                     print('Error')
