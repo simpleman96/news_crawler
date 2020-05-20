@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="019a3735-b94f-472a-b68f-4e858ebf64d7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/scrapy/document_crawler/spiders/_vnexpress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy/document_crawler/tmp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document_crawler/Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document_crawler/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_python/cnn_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document_crawler/items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document_crawler/middlewares.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document_crawler/pipelines.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document_crawler/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document_crawler/spiders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document_crawler/spiders/dantri.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document_crawler/spiders/kenh14.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document_crawler/spiders/vnexpress.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document_crawler/spiders/vtv24.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document_crawler/spiders_entry.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/dantri_docs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/vtv24_docs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy/document_crawler/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy/document_crawler/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy/document_crawler/spiders/vnexpress.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy/document_crawler/spiders/vnexpress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy/document_crawler/spiders_entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy/document_crawler/spiders_entry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_java/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_java/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_java/selenium.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_java/src/main/java/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_java/target/classes/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_python/cnn_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_python/driver/chromedriver" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,10 +29,13 @@
     <SUITE FILE_PATH="coverage/document_crawler$entry_point.coverage" NAME="kenh14_entry Coverage Results" MODIFIED="1544893818830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/document_crawler$kenh14_entry.coverage" NAME="kenh14_entry Coverage Results" MODIFIED="1588956019762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/document_crawler$Test__1_.coverage" NAME="Test (1) Coverage Results" MODIFIED="1588953906772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/document_crawler" />
+    <SUITE FILE_PATH="coverage/document_crawler$Test__2_.coverage" NAME="Test (2) Coverage Results" MODIFIED="1589997235618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy/document_crawler" />
     <SUITE FILE_PATH="coverage/document_crawler$cnn_main.coverage" NAME="cnn_main Coverage Results" MODIFIED="1589909069464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_python" />
+    <SUITE FILE_PATH="coverage/document_crawler$spiders_entry.coverage" NAME="spiders_entry Coverage Results" MODIFIED="1590003196285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy/document_crawler" />
     <SUITE FILE_PATH="coverage/document_crawler$Test.coverage" NAME="Test Coverage Results" MODIFIED="1544894230474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/document_crawler" />
     <SUITE FILE_PATH="coverage/document_crawler$kenh14.coverage" NAME="kenh14 Coverage Results" MODIFIED="1544492640420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/document_crawler/spiders" />
     <SUITE FILE_PATH="coverage/document_crawler$Twisted_Trial_in_test_func_py.coverage" NAME="Twisted Trial in test_func.py Coverage Results" MODIFIED="1588780995103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/document_crawler$vnexpress.coverage" NAME="vnexpress Coverage Results" MODIFIED="1589998297698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapy/document_crawler/spiders" />
     <SUITE FILE_PATH="coverage/document_crawler$domain_validtion_entry.coverage" NAME="domain_validtion_entry Coverage Results" MODIFIED="1544626470310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/document_crawler" />
   </component>
   <component name="FavoritesManager">
@@ -45,8 +46,17 @@
       <file leaf-file-name="spiders_entry.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders_entry.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kenh14.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/kenh14.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -54,7 +64,7 @@
       <file leaf-file-name="dantri.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/dantri.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
+            <state relative-caret-position="550">
               <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
@@ -63,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vtv24.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/vtv24.py">
+      <file leaf-file-name="vnexpress.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/vnexpress.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="166">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -75,56 +85,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vtv24_docs.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy/output/vtv24_docs.txt">
+      <file leaf-file-name="python.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scrapy/utils/python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret column="1534" selection-start-column="1534" selection-end-column="1534" />
+            <state relative-caret-position="124">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cnn_main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/selenium_python/cnn_main.py">
+      <file leaf-file-name="_vnexpress.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/_vnexpress.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium_java/src/main/java/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153" />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="187">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/middlewares.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="ElementTree.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.6/xml/etree/ElementTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="1315" lean-forward="true" selection-start-line="1315" selection-end-line="1315" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/items.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="out.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/out.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="201" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="201" />
+              <folding>
+                <element signature="n#div#1;n#!!top" />
+                <element signature="n#div#2;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#!!top" />
+                <element signature="n#div#3;n#!!top" />
+                <element signature="n#div#4;n#!!top" />
+                <element signature="n#div#5;n#!!top" />
+                <element signature="n#div#6;n#!!top" />
+                <element signature="n#div#7;n#!!top" />
+                <element signature="n#div#8;n#!!top" />
+                <element signature="n#div#9;n#!!top" />
+                <element signature="n#div#0;n#div#9;n#!!top" />
+                <element signature="n#div#1;n#div#9;n#!!top" />
+                <element signature="n#div#10;n#!!top" />
+                <element signature="n#div#11;n#!!top" />
+                <element signature="n#div#12;n#!!top" />
+                <element signature="n#div#13;n#!!top" />
+                <element signature="n#div#14;n#!!top" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="tmp.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/tmp.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" selection-end-column="147" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -143,7 +174,14 @@
       <find>TV Show</find>
       <find>Xã</find>
       <find>print</find>
+      <find>\t</find>
+      <find>&quot;</find>
+      <find>\&quot;</find>
     </findStrings>
+    <replaceStrings>
+      <replace>\&quot;</replace>
+      <replace>&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,6 +208,12 @@
         <option value="$PROJECT_DIR$/document_crawler/spiders/vtv24.py" />
         <option value="$PROJECT_DIR$/selenium_python/cnn_driver.py" />
         <option value="$PROJECT_DIR$/selenium_python/cnn_main.py" />
+        <option value="$PROJECT_DIR$/scrapy/document_crawler/tmp.html" />
+        <option value="$PROJECT_DIR$/scrapy/document_crawler/tmp1.txt" />
+        <option value="$PROJECT_DIR$/scrapy/document_crawler/Test.py" />
+        <option value="$PROJECT_DIR$/scrapy/document_crawler/spiders_entry.py" />
+        <option value="$PROJECT_DIR$/scrapy/document_crawler/tmp.txt" />
+        <option value="$PROJECT_DIR$/scrapy/document_crawler/spiders/vnexpress.py" />
       </list>
     </option>
   </component>
@@ -203,7 +247,26 @@
             <path>
               <item name="document_crawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="document_crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium_python" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="document_crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="document_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="document_crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="document_crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="document_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="document_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="document_crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="document_crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,6 +284,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scrapy/document_crawler/spiders" />
       <recent name="$PROJECT_DIR$/document_crawler/spiders" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/document_crawler" />
@@ -245,8 +309,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cnn_main">
-    <configuration name="Test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.spiders_entry">
+    <configuration name="Test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="document_crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,31 +318,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/document_crawler" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy/document_crawler" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/document_crawler/Test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="document_crawler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/document_crawler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy/document_crawler/Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -322,34 +367,58 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Twisted Trial in /home/dat/PycharmProjects/document_crawler/test_func.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+    <configuration name="spiders_entry" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="document_crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy/document_crawler" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_func.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy/document_crawler/spiders_entry.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="vnexpress" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="document_crawler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy/document_crawler/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy/document_crawler/spiders/vnexpress.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
       <item itemvalue="Python.kenh14_entry" />
-      <item itemvalue="Python.Test" />
-      <item itemvalue="Python tests.Twisted Trial in /home/dat/PycharmProjects/document_crawler/test_func.py" />
-      <item itemvalue="Python.Test (1)" />
       <item itemvalue="Python.cnn_main" />
+      <item itemvalue="Python.Test (2)" />
+      <item itemvalue="Python.spiders_entry" />
+      <item itemvalue="Python.vnexpress" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.spiders_entry" />
+        <item itemvalue="Python.vnexpress" />
+        <item itemvalue="Python.Test (2)" />
         <item itemvalue="Python.cnn_main" />
         <item itemvalue="Python.kenh14_entry" />
-        <item itemvalue="Python.Test (1)" />
-        <item itemvalue="Python tests.Twisted Trial in /home/dat/PycharmProjects/document_crawler/test_func.py" />
-        <item itemvalue="Python.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -394,15 +463,15 @@
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Python Console" order="3" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.5552283" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.4064801" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49668875" visible="true" weight="0.16178624" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.53608245" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.4064801" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49392712" visible="true" weight="0.22181553" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="0" sideWeight="0.5033113" side_tool="true" weight="0.16178624" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.47275406" />
+      <window_info id="Favorites" order="0" sideWeight="0.5060729" side_tool="true" weight="0.22181553" />
+      <window_info active="true" anchor="bottom" id="Debug" order="9" visible="true" weight="0.4521355" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -420,28 +489,88 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy/document_crawler/Test.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy/document_crawler/spiders/vnexpress.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy/document_crawler/spiders/vnexpress.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>re.compile(r&quot;&lt;h4\s+class=\&quot;title_news_site\&quot;&gt;&lt;a\s+href=\&quot;(https://e\.vnexpress\.net.+)\&quot;&gt;.+&lt;/h4&gt;&quot;).findall(html_content)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.compile(r&quot;&lt;h4 +class=\&quot;title_news_site\&quot;&gt;&lt;a +href=\&quot;(https://e\.vnexpress\.net.+)\&quot;&gt;.+&lt;/h4&gt;&quot;).findall(html_content)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.compile(r&quot;&lt;h4 class=\&quot;title_news_site\&quot;&gt;&lt;a href=\&quot;(https://e\.vnexpress\.net.+)\&quot;&gt;.+&lt;/h4&gt;&quot;).findall(html_field)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.compile(r&quot;&lt;h4\s+class=\&quot;title_news_site\&quot;&gt;&lt;a\s+href=\&quot;(https://e\.vnexpress\.net.+)\&quot;&gt;.+&lt;/h4&gt;&quot;).findall(html_field)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>html_field.replace(&quot;\t&quot;, &quot; &quot;).replace(&quot;\n&quot;, &quot; &quot;).replace(&quot;\r&quot;, &quot; &quot;).replace(&quot;\&quot;&quot;, &quot;\&quot;&quot;).replace(&quot;\/&quot;, &quot;/&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>html_field.replace(&quot;\t&quot;, &quot;&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>html_field.replace(&quot;\t&quot;, &quot;\t&quot;).replace(&quot;\\n&quot;, &quot;\n&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>html_field.replace(&quot;\\t&quot;, &quot;\t&quot;).replace(&quot;\\n&quot;, &quot;\n&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>scrapy.FormRequest('https://e.vnexpress.net/search/loadmore',
+                                 formdata={
+                                     &quot;cate_id&quot;: {&quot;cate_code&quot;: &quot;&quot;, &quot;q&quot;: &quot;covid-19&quot;, &quot;latest&quot;: &quot;&quot;, &quot;media_type&quot;: &quot;all&quot;,
+                                                 &quot;date_format&quot;: &quot;all&quot;, &quot;search_f&quot;: &quot;title,lead&quot;},
+                                     &quot;page&quot;: str(self.current_page)},
+                                 callback=self.parse)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cine_kenh14_docs" />
-    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders_entry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/document_crawler/spiders/domain_validation.py" />
-    <entry file="file://$PROJECT_DIR$/list_domain_test" />
-    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/kenh14.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/document_crawler/spiders/utils.py" />
     <entry file="file://$PROJECT_DIR$/Test.py" />
     <entry file="file://$USER_HOME$/mobi_price/mobi_price/spiders/price.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -518,20 +647,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/document_crawler/spiders/utils.py" />
-    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/kenh14.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/vnexpress.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/pipelines.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -570,30 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/dantri.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders_entry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/vtv24.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -622,6 +713,108 @@
           <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/_vnexpress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/dantri.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/kenh14.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/xml/etree/ElementTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="1315" lean-forward="true" selection-start-line="1315" selection-end-line="1315" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/tmp1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/out.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="201" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="201" />
+          <folding>
+            <element signature="n#div#1;n#!!top" />
+            <element signature="n#div#2;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#!!top" />
+            <element signature="n#div#3;n#!!top" />
+            <element signature="n#div#4;n#!!top" />
+            <element signature="n#div#5;n#!!top" />
+            <element signature="n#div#6;n#!!top" />
+            <element signature="n#div#7;n#!!top" />
+            <element signature="n#div#8;n#!!top" />
+            <element signature="n#div#9;n#!!top" />
+            <element signature="n#div#0;n#div#9;n#!!top" />
+            <element signature="n#div#1;n#div#9;n#!!top" />
+            <element signature="n#div#10;n#!!top" />
+            <element signature="n#div#11;n#!!top" />
+            <element signature="n#div#12;n#!!top" />
+            <element signature="n#div#13;n#!!top" />
+            <element signature="n#div#14;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/tmp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders_entry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scrapy/utils/python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy/document_crawler/spiders/vnexpress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

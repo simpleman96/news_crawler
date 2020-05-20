@@ -1,0 +1,1 @@
+{"cate_id": {"cate_code":"","q":"covid-19","latest":"","media_type":"all", "date_format":"all","search_f":"title,lead"}, "page": self.current_page}
