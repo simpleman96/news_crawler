@@ -4,13 +4,16 @@ from selenium.webdriver.chrome.options import Options
 options = Options()
 options.add_argument('--headless')
 
-url_template = 'https://edition.cnn.com/world/live-news/coronavirus-pandemic-{}-intl/index.html'
-date = '05-17-20'
+url = 'https://e.vnexpress.net/search?q=covid-19&csrf=2577e02d43ef0d05b4d854dd7243251e'
 
 driver = webdriver.Chrome(executable_path=r"driver/chromedriver", chrome_options=options)
 driver.implicitly_wait(10)
 
-driver.get(url_template.format(date))
+driver.get(url)
+
+WebElement element = driver.findElement(By.id("gbqfd"));
+JavascriptExecutor executor = (JavascriptExecutor)driver;
+executor.executeScript("arguments[0].click();", element);
 
 # elems = driver.find_element_by_xpath("//header[@class=\"post-headlinestyles__Header-sc-2ts3cz-0 kpNfDn\"]//text()")
 elems = driver.find_element_by_tag_name("body")
