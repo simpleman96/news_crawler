@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="019a3735-b94f-472a-b68f-4e858ebf64d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/selenium_python/foxnew_extract_links.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_python/vnexpress_extract_links.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_python/cnn_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy/document_crawler/evnexpress_covid_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy/document_crawler/input/evnexpress_covid_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_python/foxnews_covid_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy/document_crawler/input/foxnews_covid_links.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +209,7 @@
       <updated>1544450981941</updated>
       <workItem from="1590205507403" duration="14000" />
       <workItem from="1590207189810" duration="615000" />
-      <workItem from="1590207830673" duration="4531000" />
+      <workItem from="1590207830673" duration="5355000" />
     </task>
     <servers />
   </component>
@@ -242,22 +241,22 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="109" y="145" width="1137" height="511" key="#xdebugger.evaluate/0.27.1366.741@0.27.1366.741" timestamp="1590212719637" />
-    <state width="1320" height="223" key="GridCell.Tab.0.bottom" timestamp="1590214421887">
+    <state width="1320" height="223" key="GridCell.Tab.0.bottom" timestamp="1590214652002">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="223" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1590214421887" />
-    <state width="1320" height="223" key="GridCell.Tab.0.center" timestamp="1590214421887">
+    <state width="1320" height="223" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1590214652002" />
+    <state width="1320" height="223" key="GridCell.Tab.0.center" timestamp="1590214652001">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="223" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1590214421887" />
-    <state width="1320" height="223" key="GridCell.Tab.0.left" timestamp="1590214421884">
+    <state width="1320" height="223" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1590214652001" />
+    <state width="1320" height="223" key="GridCell.Tab.0.left" timestamp="1590214652001">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="223" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1590214421884" />
-    <state width="1320" height="223" key="GridCell.Tab.0.right" timestamp="1590214421887">
+    <state width="1320" height="223" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1590214652001" />
+    <state width="1320" height="223" key="GridCell.Tab.0.right" timestamp="1590214652002">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="223" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1590214421887" />
+    <state width="1320" height="223" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1590214652002" />
     <state width="1320" height="323" key="GridCell.Tab.1.bottom" timestamp="1590212738838">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -280,6 +279,6 @@
     <state width="498" height="446" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1590212852339" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/document_crawler$foxnew_extract_links.coverage" NAME="foxnew_extract_links Coverage Results" MODIFIED="1590214503784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_python" />
+    <SUITE FILE_PATH="coverage/document_crawler$foxnew_extract_links.coverage" NAME="foxnew_extract_links Coverage Results" MODIFIED="1590214516185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/selenium_python" />
   </component>
 </project>
