@@ -11,7 +11,7 @@ driver = webdriver.Chrome(executable_path="chromedriver_linux64/chromedriver", c
 # driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver", options=options)
 driver.implicitly_wait(20)
 
-crawler = FoxNewsCrawler("output/foxnews_online")
+crawler = FoxNewsCrawler("foxnews.com")
 crawler.start()
 
 news_links = []
@@ -29,4 +29,4 @@ while True:
     except Exception:
         traceback.print_exc()
     finally:
-        time.sleep(60)
+        time.sleep(600)
